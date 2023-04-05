@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kierrez Ser My Nobia</title>
+  <style>
+    .body {
+  background-color: crimson;
+  text-align: center;
+}
+
+.body__title {
+    color: white;
+}
+
+.body__img {
+    width: 20%;
+    border-radius: 50%;
+}
+  </style>
+</head>
+
+<body class="body">
+    <h1 class="hero__title">❤ KKierrez Ser My Nobia </h1>
+      <img
+        src="https://w7.pngwing.com/pngs/11/207/png-transparent-anime-haganai-k-on-tomoe-yukishiro-fan-art-anime-cartoon-flower-fictional-character.png"
+        alt="Imagen del amor" class="body__img" />
+    <button id="yes" >🌚Si soy🌚</button>
+    <button id="no" >😭Nel Perro😭</button>
+
+<script>
+    const vutonSi = document.getElementById('yes');
+    const vutonNo = document.getElementById('no');
+    
+    const ZomosNobios = () => {
+        alert('💞 Somos novios uwu💞');
+        alert('😱Nuestra VoDa Is MañaNa😱');
+        location.href = 'https://www.youtube.com/watch?v=pIsHmu2rezU&t=18s';
+    };
+
+    const evitarKCRompanMyBobo = () => {
+        vutonNo.style.position = 'absolute';
+        vutonNo.style.top = (Math.random() * window.innerHeight) + 'px';
+        vutonNo.style.left = (Math.random() * window.innerWidth) + 'px';
+    };
+
+    const partner = prompt('🥰 te amu 🥰');
+
+    vutonSi.addEventListener('click', ZomosNobios);
+    vutonNo.addEventListener('mouseover', evitarKCRompanMyBobo);
+</script>
+</body>
+
+</html>
